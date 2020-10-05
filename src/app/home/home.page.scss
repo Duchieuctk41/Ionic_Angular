@@ -1,0 +1,109 @@
+#container {
+  text-align: center;
+  height: auto;
+  min-height: 430px;
+  width: 440px;
+  margin: auto;
+  border: 0.5px solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 1%;
+  padding: 1.5rem 2rem 1rem 2rem;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container div.forget-email {
+  text-align: left;
+  padding-top: .6rem;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+img.logo-google {
+  height: 4rem;
+}
+
+.box-input {
+  border: .5px solid;
+  height: 3.5rem;
+  margin: 1rem auto;
+  border-radius: 3px;
+}
+
+#btn-direction {
+  float: right;
+  margin-top: 1.5rem;
+  color: aliceblue;
+  font-weight: 600;
+  background-color: #1a73e8;
+  border-radius: 3px;
+  width: 8rem;
+  bottom: 11%;
+  right: 7%;
+  position: absolute;
+  text-transform: capitalize;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 24px ;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+#footer-bottom {
+  left: 0;
+  right: 0;
+  bottom: 9%;
+  margin: auto;
+  width: 440px;
+  display: flex;
+  position: absolute;
+}
+.languages {
+  width: 20%;
+}
+ul.nav-footer {
+  width: 80%;
+  right: 0;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-footer .nav-list {
+  text-align: right;
+  width: 33.3%;
+}
+
+.nav-footer .nav-list a {
+  padding: 1px;
+  color: #757575;
+  font-size: .75rem;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
