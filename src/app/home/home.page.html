@@ -1,50 +1,125 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Đăng nhập google
-    </ion-title>
+    <ion-item>
+      <ion-icon name="chevron-back-outline"></ion-icon>
+      <p>Giỏ hàng</p>
+      <ion-title size="small">Khoảng cách tới chỗ bạn: 1,9km</ion-title>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <ion-text color="black">
-      <img class="logo-google" src="../../assets/icon/logo_google.gif" alt="">
-    </ion-text>
-    <ion-text color="black">
-      <h2 class="mb-0">
-        Đăng nhập
-      </h2>
-    </ion-text>
-    <ion-input class="box-input" placeholder="Your Email"></ion-input>
-    <ion-input class="box-input" placeholder="Password"></ion-input>
-    <div>
-      <ion-button id="btn-direction" href="#">Đăng nhập</ion-button>
-    </div>
-    <div class="forget-email">
-      <a href="">Bạn quên địa chỉ email?</a>
-    </div>
-  </div>
-  <div id="footer-bottom">
-    <div class="languages">
-      <span>Tiếng Việt</span>
-    </div>
-    <ul class="nav-footer">
-      <li class="nav-list"><a class="font-500" href="#">Trợ giúp</a></li>
-      <li class="nav-list"><a class="font-500" href="#">Bảo mật</a></li>
-      <li class="nav-list"><a class="font-500" href="#">Trợ giúp</a></li>
-    </ul>
-  </div>
+<ion-content>
+  <ion-item>
+    <ion-label>
+      Giao tới
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-row>
+      <ion-col size="1">
+        <ion-icon name="location-outline"></ion-icon>
+      </ion-col>
+      <ion-col size="10">
+        <ion-row>
+          <p>Ký túc xác ĐH Đà Lạt</p>
+        </ion-row>
+        <ion-row>
+          <p>20, Lý Nam Đế, Phường 8, Thành Phố Đà Lạt, Lâm Đồng</p>
+        </ion-row>
+      </ion-col>
+      <ion-col size="1">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+  <ion-item>
+    <ion-col size="8">
+      <ion-card-subtitle>Thời gian giao</ion-card-subtitle>
+      <p>Giao ngay (10 phút)</p>
+    </ion-col>
+    <ion-col size="4">
+      <ion-button fill="clear" color="success" size="small">Thay đổi</ion-button>
+    </ion-col>
+  </ion-item>
+  <ion-item>
+    <ion-col size="8">
+      <p>Tóm tắt đơn hàng</p>
+    </ion-col>
+    <ion-col size="4">
+      <ion-button fill="clear" color="success" size="small">Thêm món</ion-button>
+    </ion-col>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <img src="../../assets/images/nho_mau_don.jpg" alt="">
+        </ion-col>
+        <ion-col size="8">
+          <p>Sầu riêng hột lép</p>
+          <span>1 hộp</span>
+          <ion-text color="success">
+            40,000
+          </ion-text>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="close-outline"></ion-icon>
+          <ion-row>
+            <ion-icon name="remove-outline"></ion-icon>
+            <ion-label>1</ion-label>
+            <ion-icon name="add-outline"></ion-icon>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="logo-closed-captioning"></ion-icon>
+    <ion-label>Mã giảm giá</ion-label>
+    <ion-button>Chọn mã giảm giá</ion-button>
+    <ion-icon name="chevron-forward-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-col>
+      <ion-row>
+        <ion-label>Tổng tạm tính</ion-label>
+        <p>40.000đ</p>
+      </ion-row>
+      <ion-row>
+        <ion-label>Phí áp dụng</ion-label>
+        <ion-icon name="information-outline"></ion-icon>
+        <p>19.000</p>
+      </ion-row>
+    </ion-col>
+  </ion-item>
+  <ion-item>
+    <ion-card-title>
+      Phương thức thanh toán
+    </ion-card-title>
+  </ion-item>
+  <ion-item>
+    <ion-col size="6">
+      <ion-icon name="cash-outline"></ion-icon>
+      <ion-label>Tiền mặt</ion-label>
+    </ion-col>
+    <ion-col size="6">
+      <ion-label>Ưu đãi</ion-label>
+    </ion-col>
+  </ion-item>
 </ion-content>
 
 <ion-footer class="ion-no-border">
   <ion-toolbar>
-    <ion-title>Footer</ion-title>
+    <ion-row>
+      <ion-col size="6">
+        <ion-label>Tổng cộng</ion-label>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card-title>
+          50.000đ
+        </ion-card-title>
+      </ion-col>
+    </ion-row>
+    <ion-button color="danger">Đặt đơn</ion-button>
   </ion-toolbar>
 </ion-footer>
